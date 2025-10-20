@@ -1,0 +1,3 @@
+/home/jungle/connection_pool_linux/build/CMakeFiles/rebuild_cache.dir
+/home/jungle/connection_pool_linux/build/CMakeFiles/edit_cache.dir
+/home/jungle/connection_pool_linux/build/CMakeFiles/main.dir

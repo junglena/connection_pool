@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Connection.h
+mysql/mysql.h
+-
+string
+-
+chrono
+-
+
+../include/ConnectionPool.h
+string
+-
+thread
+-
+mutex
+-
+iostream
+-
+Connection.h
+../include/Connection.h
+queue
+-
+atomic
+-
+condition_variable
+-
+
+/home/jungle/connection_pool_linux/src/main.cpp
+iostream
+-
+thread
+-
+chrono
+-
+ConnectionPool.h
+/home/jungle/connection_pool_linux/src/ConnectionPool.h
+
